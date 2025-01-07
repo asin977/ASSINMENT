@@ -1,0 +1,219 @@
+body,ul,li,h1,h2,a{
+    margin:0;
+    padding:0;
+
+}
+p{
+  font-size: 18px;
+}
+
+
+header{
+    background-color:crimson;
+    padding:20px 0;
+    text-align: center;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    width:100%;
+    
+    
+    
+}
+ header h1 {
+  color:midnightblue;
+  background-color: bisque;
+  font-size: larger;
+  padding:6px,12px;
+  font-size: 50px;
+  display: inline-block;
+  border-radius: 20px;
+  text-align: center;
+
+}
+.banner{
+    position:relative;
+  }
+.banner.img{
+   max-width:100%;
+}
+.welcome{
+    position:absolute;
+    color:darkgoldenrod;
+    padding:30px;
+    left:0;
+    top:30%;
+    font-size: 60px;
+    background-color:goldenrod;
+}
+ .banner.welcome span{
+    font-size:1.4em;
+ }
+
+h2{
+  font-size:50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: oblique;
+  color:floralwhite;
+}
+ h2 span{
+    font-size:50px;
+}
+nav{
+  background-color:gainsboro;
+  padding:20px;
+  position:sticky;
+  top:106px;
+  z-index:1;
+}
+nav ul{
+   white-space: nowrap;
+   max-width: 1200px;
+   margin:auto;
+   text-align: center;
+}
+nav li{
+  width:25%;
+  display: inline-block;
+  font-size:30px;
+}
+ article h2{
+   font-size:60px;
+   font-family: fantasy;
+   color:darkblue;
+   line-height: 40mm;
+}
+ main article p{
+    font-size: 20px;;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    line-height: 10mm;}
+ 
+  
+nav section h2{
+    font-size: medium;
+    font-style: normal;
+    font-family: cursive;
+    color:midnightblue;
+
+}
+nav li a{
+    text-decoration: none;
+    background-color: darkgrey;
+    color:black;
+}
+
+nav li a.join{
+    color:red;
+    
+}  
+ nav li a.news{
+    color:darkred;
+ }
+ nav li a.contact{
+    color:deeppink;
+}     
+nav li a.new games{
+  color:indigo;
+}
+nav{
+   background-color: darksalmon;
+
+}
+main{
+    
+    width:100%;
+    margin:auto;
+    padding:0 40px;
+    box-sizing:border-box;
+  }
+ul.images{
+    border:solid 10 lightcoral;
+    align-content: center;
+}
+.images{
+    text-align: center;
+    margin:auto;
+    white-space: nowrap;
+}
+.images li{
+    display:inline-block;
+    width:40%;
+}    
+.images li img{
+    max-width: 400px;
+} 
+section h1{
+    font-size:50px;
+    font-display: block;
+    text-align: center;
+    font-style: inherit;
+    color:red;
+}
+section p{
+    font-size: larger;
+    font-family: fantasy;
+    font-style: normal;
+    text-align: center;
+    color:black;
+    line-height: 5mm;
+    background-color:lightyellow;
+}
+form{
+   text-align:center;
+   border:solid 4px white;
+   border-radius: 40px;
+   }
+.copyright{
+    text-align: left;
+}
+nav li a:hover{
+    text-decoration: underline;
+} 
+.images li:hover{
+    top:-4px;
+    position: relative;
+}
+form input:focus{
+    border:solid 3px black;
+    outline: none; 
+    border-radius: 40px;
+}
+form input:valid{
+    border:solid 3px green;
+}
+article p::first-letter{
+     font-size:50px;
+     font-weight:bold;
+     
+}
+p::selection{
+     background-color:red;
+
+}
+p::after{
+   content:".........";
+}
+@media screen and (max-width:560px) {
+    .banner.welcome{
+        font-size:20px;@media screen and(max-width:1200px){
+           .welcome h2{
+                font-size:60px;
+           }
+      nav li{
+        font-size: 18px;
+      }
+
+
+
+        }
+          
+        
+          
+        
+
+    }
+  
+}
